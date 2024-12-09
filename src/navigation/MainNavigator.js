@@ -39,6 +39,20 @@ export default function MainNavigator() {
 
             return <Ionicons name={iconName} size={16} color={color} />;
           },
+          tabBarActiveTintColor: "#007AFF",
+          tabBarInactiveTintColor: "#8e8e93",
+          tabBarStyle: {
+            backgroundColor: "#fff",
+            height: 60,
+            borderTopWidth: 0,
+            paddingBottom: 10,
+            marginBottom: 10,
+            elevation: 10,
+          },
+          tabBarLabelStyle: {
+            fontSize: 12,
+            fontWeight: "bold",
+          },
         })}
       >
         <Tab.Screen name="Home" component={HomeScreen} />
